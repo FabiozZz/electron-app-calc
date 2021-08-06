@@ -7,8 +7,8 @@ const url = require('url');
 function createWindow() {
     // Создаем окно браузера.
     const mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 800,
         webPreferences: {
             nodeIntegration: true
         }
@@ -27,7 +27,7 @@ function createWindow() {
     // mainWindow.loadURL('http://localhost:3000');
 
     // Отображаем средства разработчика.
-    // mainWindow.webContents.openDevTools()
+    mainWindow.webContents.openDevTools()
 }
 
 // Этот метод вызывается когда приложение инициализируется

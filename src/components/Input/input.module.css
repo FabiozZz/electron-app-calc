@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 16px;
+    height: 64px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrapper input {
+    width: 20%;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #3e3d42;
+}
+.wrapper input:focus {
+    outline: none;
+}
+.wrapper p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #c4c4c4;
+    padding-right: 8px;
+}

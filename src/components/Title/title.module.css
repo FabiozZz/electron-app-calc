@@ -1,0 +1,28 @@
+.title {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 106px;
+    line-height: 120px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+    /* Character / danger */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-column: 1/7;
+}
+.title::after {
+    position: absolute;
+    content: "калькулятор";
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #ffffff;
+}

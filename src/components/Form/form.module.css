@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 32px;
+    grid-auto-rows: min-content;
+}
+.firstSwitch{
+    grid-column: 2/3;
+    justify-self: end;
+}
+.secondSwitch{
+    grid-column: 3/4;
+    justify-self: start;
+}
+.inputLeft{
+    grid-column: 1/3;
+}
+.inputRight{
+    grid-column: 3/5;
+}
+.inputCenter{
+    grid-column: 2/4;
+}
