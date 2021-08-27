@@ -1,0 +1,17 @@
+.step_one_form {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.step_one_form:nth:not(:first-child){
+    padding-top: 20px;
+}
+.step_one_form p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}

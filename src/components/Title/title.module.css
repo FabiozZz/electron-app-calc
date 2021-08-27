@@ -3,20 +3,18 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 106px;
+    font-size: 90px;
     line-height: 120px;
     letter-spacing: 0.025em;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.1);
-    /* Character / danger */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;  
     grid-column: 1/7;
 }
-.title::after {
+.backText{
     position: absolute;
-    content: "калькулятор";
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -25,4 +23,9 @@
     letter-spacing: 0.025em;
     text-transform: uppercase;
     color: #ffffff;
+
 }
+/* .title::after {
+    position: absolute;
+    content: "калькулятор";
+} */

@@ -4,6 +4,7 @@ import { Btn } from "./components/Btn/Btn";
 import { Title } from "./components/Title/Title";
 import { createContext, useEffect, useState } from "react";
 import { Form } from "./components/Form/Form";
+import { StepOne } from "./components/Step1/StepOne";
 
 export const Context = createContext();
 
@@ -56,11 +57,12 @@ function App() {
             }}
         >
             <div className="App">
-                <Title>Калькулятор</Title>
+                <StepOne/>
+                {/* <Title text={'Калькулятор'}/>
                 <div className="form">
                     <Form />
                 </div>
-                <Btn click={handleSubmit} text={"Рассчитать"} />
+                <Btn click={handleSubmit} text={"Рассчитать"} /> */}
             </div>
         </Context.Provider>
     );
